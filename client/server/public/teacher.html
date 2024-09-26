@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Teacher Dashboard</h1>
+    <form id="markAttendanceForm">
+      <label for="studentId">Student ID:</label>
+      <input type="text" id="studentId" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      <label for="status">Status:</label>
+      <select id="status" required>
+        <option value="present">Present</option>
+        <option value="absent">Absent</option>
+      </select>
+      <button type="submit">Mark Attendance</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
